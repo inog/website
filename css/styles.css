@@ -3,7 +3,7 @@ body {
 	padding: 0;
 	background: #eeeeee;
 	color: #444444;
-	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-family: "Open Sans", sans-serif;
 	font-size: 1em;
 }
 
@@ -43,7 +43,7 @@ a:hover {
 }
 
 h1, h2, h3 {
-	font-family: Copperplate Light, Copperplate Gothic Light, serif;
+	font-family: "Poppins", sans-serif;
 	font-weight: bold;
 }
 
