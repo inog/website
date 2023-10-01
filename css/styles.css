@@ -45,6 +45,11 @@ footer {
 	text-align: center;
 }
 
+footer p, footer a {
+	display: inline;
+	margin: 0 10px;
+}
+
 footer a {
 	color: #333;
 	text-decoration: none;
