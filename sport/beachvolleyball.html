@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beachvolleyball Regeln</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f0f9ff; /* Light blue background, reminiscent of sky/beach */
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .header {
+            background-color: #0ea5e9; /* Sky blue */
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+            border-radius: 12px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .header h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+        .header p {
+            font-size: 1.1rem;
+        }
+        .rule-section {
+            background-color: white;
+            padding: 25px;
+            margin-bottom: 20px;
+            border-radius: 12px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+        }
+        .rule-section h2 {
+            font-size: 1.8rem;
+            font-weight: 600;
+            color: #0369a1; /* Darker blue for headings */
+            margin-bottom: 15px;
+            border-bottom: 2px solid #e0f2fe; /* Light blue underline */
+            padding-bottom: 10px;
+        }
+        .rule-section h3 {
+            font-size: 1.3rem;
+            font-weight: 600;
+            color: #075985; /* Even darker blue for subheadings */
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+        .rule-section p, .rule-section ul {
+            font-size: 1rem;
+            line-height: 1.6;
+            color: #374151; /* Dark gray for text */
+        }
+        .rule-section ul {
+            list-style-type: disc;
+            padding-left: 20px;
+            margin-top: 10px;
+        }
+        .rule-section li {
+            margin-bottom: 8px;
+        }
+        .highlight {
+            color: #0ea5e9;
+            font-weight: 600;
+        }
+        .footer {
+            text-align: center;
+            padding: 20px;
+            font-size: 0.9rem;
+            color: #6b7280; /* Medium gray for footer */
+            margin-top: 30px;
+        }
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 2rem;
+            }
+            .header p {
+                font-size: 1rem;
+            }
+            .rule-section h2 {
+                font-size: 1.5rem;
+            }
+            .rule-section h3 {
+                font-size: 1.1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <header class="header">
+        <h1>Beachvolleyball Regeln</h1>
+        <p>Dein kompakter Guide für das Spiel im Sand!</p>
+    </header>
+
+    <!-- Section: Spielfeld und Ausrüstung -->
+    <section class="rule-section" id="spielfeld">
+        <h2>1. Spielfeld & Ausrüstung</h2>
+        <p>Das Verständnis des Spielfelds ist der erste Schritt zum erfolgreichen Spiel.</p>
+        <h3>Spielfeldabmessungen:</h3>
+        <ul>
+            <li>Größe: Ein Rechteck von <span class="highlight">16 x 8 Metern</span>.</li>
+            <li>Freizone: Mindestens 3 Meter breit auf allen Seiten. Bei offiziellen FIVB-Wettbewerben 5-6 Meter.</li>
+            <li>Oberfläche: Tiefer, ebener Sand, frei von Steinen oder anderen gefährlichen Gegenständen. Mindestens 40 cm tief.</li>
+        </ul>
+        <h3>Netz:</h3>
+        <ul>
+            <li>Länge: 8,5 Meter.</li>
+            <li>Breite: 1 Meter.</li>
+            <li>Netzhöhe:
+                <ul>
+                    <li>Männer: <span class="highlight">2,43 Meter</span></li>
+                    <li>Frauen: <span class="highlight">2,24 Meter</span></li>
+                    <li>Mixed (offiziell oft wie Männer, kann variieren): Oft 2,35 Meter oder nach Absprache.</li>
+                </ul>
+            </li>
+            <li>Antennen: An den Seiten des Netzes befestigt, begrenzen den Überquerungsraum des Balles. Der Ball muss zwischen den Antennen über das Netz gespielt werden.</li>
+        </ul>
+        <h3>Ball:</h3>
+        <p>Ein spezieller Beachvolleyball, der heller, etwas größer und mit geringerem Innendruck als ein Hallenvolleyball ist (65-67 cm Umfang, 260-280 g).</p>
+    </section>
+
+    <!-- Section: Spieler und Teams -->
+    <section class="rule-section" id="teams">
+        <h2>2. Spieler & Teams</h2>
+        <p>Beachvolleyball ist ein Teamsport, der auf zwei Spieler pro Seite setzt.</p>
+        <ul>
+            <li>Teamgröße: Jedes Team besteht aus <span class="highlight">zwei Spielern</span>.</li>
+            <li>Keine Auswechselspieler während eines Satzes (Ausnahme: Verletzung nach Prüfung durch Schiedsrichter).</li>
+            <li>Kapitän: Einer der beiden Spieler ist der Kapitän und vertritt das Team.</li>
+            <li>Aufstellung: Es gibt keine festen Positionen. Die Spieler können sich frei auf ihrer Feldhälfte bewegen.</li>
+        </ul>
+    </section>
+
+    <!-- Section: Spielablauf und Punktesystem -->
+    <section class="rule-section" id="spielablauf">
+        <h2>3. Spielablauf & Punktesystem</h2>
+        <p>So werden Punkte erzielt und Spiele gewonnen.</p>
+        <h3>Punktgewinn (Rally-Point-System):</h3>
+        <ul>
+            <li>Ein Team erzielt einen Punkt, wenn der Ball den Boden der gegnerischen Spielfeldhälfte berührt.</li>
+            <li>Ein Team erzielt einen Punkt, wenn das gegnerische Team einen Fehler begeht (z.B. Ball "Aus", Netzberührung).</li>
+            <li>Ein Team erzielt einen Punkt, wenn das gegnerische Team eine Strafe erhält.</li>
+            <li>Jeder Ballwechsel führt zu einem Punkt, unabhängig davon, welches Team aufgeschlagen hat.</li>
+        </ul>
+        <h3>Satzgewinn:</h3>
+        <ul>
+            <li>Ein Satz (außer dem Entscheidungssatz) wird von dem Team gewonnen, das zuerst <span class="highlight">21 Punkte</span> mit einem Vorsprung von mindestens zwei Punkten erzielt.</li>
+            <li>Es gibt keine Punktbegrenzung (z.B. ein Satz kann 28-26 enden).</li>
+        </ul>
+        <h3>Spielgewinn:</h3>
+        <ul>
+            <li>Das Spiel wird von dem Team gewonnen, das <span class="highlight">zwei Sätze</span> gewinnt.</li>
+            <li>Bei einem Spielstand von 1:1 Sätzen wird ein entscheidender dritter Satz bis <span class="highlight">15 Punkte</span> gespielt, ebenfalls mit einem Mindestvorsprung von zwei Punkten.</li>
+        </ul>
+        <h3>Seitenwechsel:</h3>
+        <ul>
+            <li>In den ersten beiden Sätzen wechseln die Teams die Seiten nach jeweils <span class="highlight">7 gespielten Punkten</span>.</li>
+            <li>Im entscheidenden dritten Satz wechseln die Teams die Seiten nach jeweils <span class="highlight">5 gespielten Punkten</span>.</li>
+            <li>Zwischen den Sätzen gibt es eine kurze Pause.</li>
+        </ul>
+        <h3>Auszeiten:</h3>
+        <ul>
+            <li>Jedes Team hat pro Satz eine Auszeit von <span class="highlight">30 Sekunden</span>.</li>
+            <li>Bei offiziellen FIVB-Wettbewerben gibt es eine "Technische Auszeit" von 30 Sekunden in den Sätzen 1 und 2, wenn die Summe der Punkte beider Teams 21 erreicht (z.B. bei 11:10).</li>
+        </ul>
+    </section>
+
+    <!-- Section: Grundlegende Spielaktionen -->
+    <section class="rule-section" id="aktionen">
+        <h2>4. Grundlegende Spielaktionen</h2>
+        <p>Die Bausteine eines jeden Ballwechsels.</p>
+        <h3>Ballberührungen pro Team:</h3>
+        <p>Ein Team hat maximal <span class="highlight">drei Ballberührungen</span>, um den Ball zurück ins gegnerische Feld zu spielen. Der Block zählt als eine Berührung.</p>
+        <h3>Aufschlag (Service):</h3>
+        <ul>
+            <li>Der Spieler, der aufschlägt, muss sich hinter der Grundlinie befinden.</li>
+            <li>Der Ball wird mit einer Hand oder einem Arm geschlagen.</li>
+            <li>Der Ball darf beim Aufschlag das Netz berühren ("Netzroller" ist erlaubt).</li>
+            <li>Die Spieler eines Teams schlagen abwechselnd auf, wenn das Aufschlagrecht gewonnen wird.</li>
+        </ul>
+        <h3>Annahme (Reception/Dig):</h3>
+        <p>Die erste Ballberührung nach dem gegnerischen Aufschlag. Oft als "Bagger" (Unterarmspiel) ausgeführt. Eine Annahme im oberen Zuspiel (Pritschen) ist nur erlaubt, wenn der Ballkontakt absolut "sauber" ist (kein Führen, Halten oder Doppelkontakt).</p>
+        <h3>Zuspiel (Set):</h3>
+        <p>Die zweite Ballberührung, idealerweise um den Ball für den Angriff vorzubereiten. Meist im oberen Zuspiel (Pritschen) ausgeführt.</p>
+        <h3>Angriffsschlag (Attack Hit/Spike):</h3>
+        <p>Jede Aktion, die den Ball zum Gegner lenkt, außer Aufschlag und Block. Oft ein harter Schlag ("Smash") oder ein platzierter "Shot".</p>
+        <h3>Block:</h3>
+        <ul>
+            <li>Aktion der Spieler in Netznähe, um den vom Gegner kommenden Ball abzuwehren, indem sie höher als die Netzoberkante reichen.</li>
+            <li>Nur Vorderspieler dürfen einen Block ausführen.</li>
+            <li>Eine Blockberührung zählt als eine der drei erlaubten Teamberührungen. Nach einer Blockberührung sind noch zwei weitere Berührungen erlaubt.</li>
+            <li>Der Spieler, der den Block ausgeführt hat, darf den Ball direkt danach erneut berühren (dies zählt dann als zweite Berührung des Teams).</li>
+            <li>Das Blocken des gegnerischen Aufschlags ist verboten.</li>
+        </ul>
+    </section>
+
+    <!-- Section: Wichtige Regeln und Fehler -->
+    <section class="rule-section" id="fehler">
+        <h2>5. Wichtige Regeln & Fehler</h2>
+        <p>Was erlaubt ist und was zu Punktverlust führt.</p>
+        <h3>Ballberührungen:</h3>
+        <ul>
+            <li>Ein Spieler darf den Ball nicht zweimal hintereinander berühren (Ausnahme: nach eigener Blockberührung).</li>
+            <li>Der Ball darf mit jedem Körperteil gespielt werden.</li>
+            <li>Der Ball muss geschlagen werden, nicht gehalten, geworfen oder geführt.</li>
+            <li>Doppelberührung: Zwei Berührungen durch denselben Spieler hintereinander sind ein Fehler. Ausnahme: Bei der ersten Ballberührung des Teams, wenn die Kontakte innerhalb derselben Aktion stattfinden (z.B. Ball prallt von den Armen auf die Brust).</li>
+        </ul>
+        <h3>Spiel am Netz:</h3>
+        <ul>
+            <li>Netzberührung: Eine Berührung des Netzes durch einen Spieler zwischen den Antennen während der Spielaktion ist ein Fehler. Eine zufällige Berührung des Netzes außerhalb der Antennen oder wenn der Spieler nicht aktiv am Spielgeschehen beteiligt ist, ist kein Fehler.</li>
+            <li>Übertreten: Spieler dürfen unter dem Netz in die gegnerische Hälfte eindringen, solange sie den Gegner nicht behindern. Das Berühren des gegnerischen Feldes mit dem Fuß ist erlaubt, wenn ein Teil des Fußes auf oder über der Mittellinie bleibt.</li>
+            <li>Übergreifen: Beim Blocken darf ein Spieler über das Netz greifen, nachdem der Gegner seinen Angriffsschlag ausgeführt hat. Es ist erlaubt, die Hand über das Netz zu führen, wenn der Ball auf der eigenen Seite ist und der Angriff ausgeführt wird.</li>
+        </ul>
+        <h3>Oberes Zuspiel (Pritschen) zum Gegner:</h3>
+        <ul>
+            <li>Ein im oberen Zuspiel (Pritschen) gespielter Ball zum Gegner ist nur erlaubt, wenn die Flugbahn des Balles <span class="highlight">senkrecht zur Schulterachse</span> des zuspielenden Spielers verläuft (also gerade nach vorne oder gerade nach hinten).</li>
+            <li>Seitliches Pritschen über das Netz ist ein Fehler. Ausnahme: Der Spieler wollte seinen Mitspieler anspielen, und der Ball fliegt unbeabsichtigt zum Gegner.</li>
+            <li>Der gepritschte Ball darf nicht "gehalten" oder "geführt" werden. Der Kontakt muss kurz und sauber sein.</li>
+        </ul>
+        <h3>"Poke" / Angriff mit Fingerknöcheln:</h3>
+        <p>Das Spielen des Balls mit den Fingerknöcheln (oft als "Cobra Shot" oder "Poke" bezeichnet) ist eine erlaubte Angriffstechnik, besonders um den Ball kurz hinter den Block zu legen. Das Legen des Balls mit der offenen Hand (Fingerspitzen) ist nicht erlaubt.</p>
+        <h3>Ball "In" oder "Aus":</h3>
+        <ul>
+            <li>"In": Der Ball berührt das Spielfeld einschließlich der Begrenzungslinien.</li>
+            <li>"Aus": Der Ball berührt den Boden vollständig außerhalb der Begrenzungslinien, berührt einen Gegenstand außerhalb des Feldes, die Antennen, Seile, Pfosten oder das Netz außerhalb der Seitenbänder.</li>
+        </ul>
+    </section>
+
+    <!-- Section: Handzeichen -->
+    <section class="rule-section" id="handzeichen">
+        <h2>6. Handzeichen (Blockzeichen)</h2>
+        <p>Kommunikation im Team ist entscheidend. Blockzeichen werden vom Blockspieler hinter dem Rücken angezeigt, um dem Partner die geplante Blocktaktik mitzuteilen.</p>
+        <ul>
+            <li><span class="highlight">Ein Finger (Zeigefinger):</span> Der Blockspieler blockiert die Linie (den geraden Angriff entlang der Seitenlinie). Der Abwehrspieler deckt die diagonale Richtung ab.</li>
+            <li><span class="highlight">Zwei Finger (Zeige- und Mittelfinger):</span> Der Blockspieler blockiert die diagonale Angriffsrichtung. Der Abwehrspieler deckt die Linie ab.</li>
+            <li><span class="highlight">Faust:</span> Der Blockspieler täuscht einen Block nur an und zieht sich dann zur Feldabwehr zurück (kein Block). Der Abwehrspieler muss das gesamte Feld abdecken oder reagiert entsprechend.</li>
+            <li><span class="highlight">Offene Hand (alle Finger gestreckt):</span> Der Blockspieler blockiert den Ball direkt ("Ball-Block"), unabhängig von der Richtung, versucht also, den Ball direkt zu stoppen.</li>
+            <li>Wackelnde Finger (oft ein oder zwei): Signalisiert dem Partner, dass der Aufschlag auf einen bestimmten Spieler oder eine bestimmte Zone erfolgen soll.</li>
+        </ul>
+        <p>Die Zeichen können für die linke und rechte Angriffsseite des Gegners unterschiedlich angezeigt werden (linke Hand für die linke Seite des Angreifers, rechte Hand für die rechte Seite).</p>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; <span id="year"></span> Beachvolleyball Regeln. Alle Angaben ohne Gewähr. Im Zweifel gelten die offiziellen FIVB-Regeln.</p>
+        <p>Viel Spaß im Sand!</p>
+        <div id="donate-button-container" style="display: flex; justify-content: center; align-items: center; margin-top: 1rem;">
+            <div id="donate-button"></div>
+            <script src="https://www.paypalobjects.com/donate/sdk/donate-sdk.js" charset="UTF-8"></script>
+            <script>
+                PayPal.Donation.Button({
+                    env:'production',
+                    hosted_button_id:'TCRDHPQ8XFW2A',
+                    image: {
+                        src:'https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif',
+                        alt:'Donate with PayPal button',
+                        title:'PayPal - The safer, easier way to pay online!',
+                    }
+                }).render('#donate-button');
+            </script>
+        </div>
+    </footer>
+</div>
+
+<script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
