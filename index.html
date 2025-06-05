@@ -26,7 +26,22 @@
     </ul>
 </div>
 <footer>
-    <p>&copy; 2023 Ingo Reschke</p> <a href="impressum.html">Impressum</a>
+    <p>&copy; 2025 Ingo Reschke</p> <a href="impressum.html">Impressum</a>
+    <div id="donate-button-container" style="display: flex; justify-content: center; align-items: center; margin-top: 1rem;">
+        <div id="donate-button"></div>
+        <script src="https://www.paypalobjects.com/donate/sdk/donate-sdk.js" charset="UTF-8"></script>
+        <script>
+            PayPal.Donation.Button({
+                env:'production',
+                hosted_button_id:'TCRDHPQ8XFW2A',
+                image: {
+                    src:'https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif',
+                    alt:'Donate with PayPal button',
+                    title:'PayPal - The safer, easier way to pay online!',
+                }
+            }).render('#donate-button');
+        </script>
+    </div>
 </footer>
 
 
